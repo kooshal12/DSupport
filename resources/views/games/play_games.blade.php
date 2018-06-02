@@ -1,4 +1,6 @@
-@extends('layouts.app')
+@extends('main')
+
+@section('title','| play games')
 
 @section('content')
 <div class="modal fade" id="winnerModal" tabindex="-1" role="dialog" aria-labelledby="winnerModal-label">
@@ -17,7 +19,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container game">
         <h1>brain teaser Game for kids</h1>
         <section class="score-panel">
             <ul class="stars">
