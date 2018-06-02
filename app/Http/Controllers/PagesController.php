@@ -12,4 +12,20 @@ class PagesController extends Controller
      return view('games.play_games');
 
    }
+   public function contactExpert(){
+
+     return view('pages.contactexpert');
+
+   }
+   public function dislexiyachildquestion(){
+
+     return view('pages.dislexiyachildquestion');
+
+   }
+   public function dislexiyateenquestion(){
+
+     return view('pages.dislexiyateenquestion');
+
+   }
+
 }

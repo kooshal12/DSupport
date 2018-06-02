@@ -16,6 +16,10 @@ Route::get('/', function () {
 });
 
 Route::get('play_games', 'PagesController@play_games'); 
+Route::get('contactexpert', 'PagesController@contactExpert'); 
+
+Route::get('dislexiyachildquestion', 'PagesController@dislexiyachildquestion'); 
+Route::get('dislexiyateenquestion', 'PagesController@dislexiyateenquestion'); 
 
 Auth::routes();
 
