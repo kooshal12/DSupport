@@ -40,13 +40,12 @@
 
         <!-- Banner -->
             <section id="banner" >
-                <h2>Spatial</h2>
-                <p>Lorem ipsum dolor sit amet nullam consequat <br /> interdum vivamus donce sed libero.</p>
-        <!--        <ul class="actions">
-                    <li><a href="#" class="button special big">Dyslexia</a></li>
-                    <li><a href="#" class="button special big">Dimentia</a></li>
+                <h2>Sensory Preference Based Learning</h2>
+                <p>We learn through all of our senses, but generally favor one or two. </br>We process visually (through images, color and form), aurally (by hearing and sound), kinesthetically</br> (by moving and manipulating) and through formal text processing (through reading and writing.)</p>
+                <ul class="actions">
+                    <li><a href="" class="button special big">Find out your sensory perference</a></li>
                 </ul>
-        --> </section>
+         </section>
 
             <!-- One -->
                 <section id="one" class="wrapper style1">

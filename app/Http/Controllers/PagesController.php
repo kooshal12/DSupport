@@ -27,5 +27,10 @@ class PagesController extends Controller
      return view('pages.dislexiyateenquestion');
 
    }
+   public function sensorypreference(){
+
+     return view('pages.sensorypreference');
+
+   }
 
 }
