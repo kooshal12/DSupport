@@ -9,11 +9,13 @@
                        
                          @if (Route::has('login'))
                         <div class="top-right links">
+                             <li><a href="{{ url('/home') }}">Home</a></li>
+                        <li><a href="{{ url('/play_games') }}">Play Games</a></li>
                             @auth
-                                <li><a href="{{ url('/play_games') }}">Play Games</a></li>
+                                
                                 <li><a href="{{ url('/home') }}">Home</a></li>
                             @else
-                            <a href="{{ url('/play_games') }}">Play Games</a>
+                            
                                 <li><a href="{{ route('login') }}">Login</a></li>
                                 <li><a href="{{ route('register') }}">Register</a></li>
                             @endauth

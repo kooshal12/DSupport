@@ -20,7 +20,7 @@ Route::get('contactexpert', 'PagesController@contactExpert');
 
 Route::get('dislexiyachildquestion', 'PagesController@dislexiyachildquestion'); 
 Route::get('dislexiyateenquestion', 'PagesController@dislexiyateenquestion'); 
-
+Route::get('sensorypreference', 'PagesController@sensorypreference'); 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
